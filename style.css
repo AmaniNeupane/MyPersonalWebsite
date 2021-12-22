@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+#welcome {
+
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#d9b6f2 0%, #b9b6f2 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    
+}
+
+
+
+h1 {
+
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Comfortaa', cursive;
+}
+
+#bio {
+
+    padding: 50px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+    font-family: 'Comfortaa', cursive;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+
+
+.links {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: #9378b0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.article:hover {
+    color:fuchsia;
+}
+
+#games {
+    
+width: 100%;
+height:100%;
+background-color:white
+}
+
+#MoreStuff {
+width: 100%;
+height:100%;
+background-color:white
+}
+
+
+img {
+    
+    transition: transform .2sec
+}
+
+img: hover {
+    transform: scale(0.9)
+}
+.article:hover {
+color: aliceblue;  
+}
+#contact {
+ background:aliceblue;  
+}
+
+
+
+
+#contact iframe {
+width:100%;
+    
+}
+
+.contact_1 h3 {
+display:inline ;
+   
+}
+.contact_1 a {
+    
+    text-shadow:none;
+    color: black;
+}
